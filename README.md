@@ -4,6 +4,10 @@ Welcome to the Blaser Lab Github page.
 
 Our lab is interested in hematopoiesis and leukemogenesis.  We also have an interest in single cell technologies. This github page is a good place to start if you want to review the code behind the figures for our papers.  From here you can also find the code for our blaseRtools R package.  This is a set of functions we use frequently in the lab related to single cell analysis, image analysis, DNA sequence manipulation, and Chip/ATAC-seq visualization.  
 
+### [**NEW:  R Universe blaserlab repo!**](https://blaserlab.r-universe.dev/ui#builds)
+
+This is like a CRAN repo for everybody.  This is your best option for installing blaseRtools and blaseRtemplates.  MAC and Windows binaries are available.  See the top of the page for instructions on how to enable blaserlab repo.
+
 ### [Analysis projects for papers](https://github.com/blaserlab?tab=repositories)
 
 Here you can find links to the public github repos for our data analysis projects.  Private repositories are also available to collaborators in this area.  Most are designed to work in concert with a precompiled data package which is publicly distributed through our dryad and privately available on our OSU network drive.  
@@ -32,7 +36,6 @@ I am happy to announce that I am once again offering the workshop in Spring 2022
 * Materials:  Workshop materials will be distributed via the course website.  These will be released at a later date.
 * How to participate:  Email bradley.blaser@osumc.edu and be sure to include “Workshop Spring 2022” in the subject
 * Video recordings will be made available to participants.
-
 
 
 
