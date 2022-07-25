@@ -15,10 +15,10 @@ Here you can find links to the public github repos for our data analysis project
 * [flt3_aml_bakerlab](https://github.com/blaserlab/flt3_aml_bakerlab)
 	* Sc-RNAseq Analysis of bone marrow samples from Flt3-AML patients treated with Gilteritinib.
 	* We find chemokines upregulated in patients resistant to Gilteritinib.
-	*[PMID 35797240](https://pubmed.ncbi.nlm.nih.gov/35797240/)
+	* [PMID 35797240](https://pubmed.ncbi.nlm.nih.gov/35797240/)
 * [hanel_lapo](https://github.com/blaserlab/hanel_lapo)
 	* Sc-RNAseq Analysis of mantle cell lymphoma patient samples
-	*[PMID 35831896](https://pubmed.ncbi.nlm.nih.gov/35831896/)
+	* [PMID 35831896](https://pubmed.ncbi.nlm.nih.gov/35831896/)
 
 
 ### [blaseRtools](https://blaserlab.github.io/blaseRtools/)
