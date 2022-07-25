@@ -4,19 +4,36 @@ Welcome to the Blaser Lab Github page.
 
 Our lab is interested in hematopoiesis and leukemogenesis.  We also have an interest in single cell technologies. This github page is a good place to start if you want to review the code behind the figures for our papers.  From here you can also find the code for our blaseRtools R package.  This is a set of functions we use frequently in the lab related to single cell analysis, image analysis, DNA sequence manipulation, and Chip/ATAC-seq visualization.  
 
-### [**NEW:  R Universe blaserlab repo!**](https://blaserlab.r-universe.dev/ui#builds)
+### [R Universe blaserlab repo!](https://blaserlab.r-universe.dev/ui#builds)
 
 This is like a CRAN repo for everybody.  This is your best option for installing blaseRtools and blaseRtemplates.  MAC and Windows binaries are available.  See the top of the page for instructions on how to enable blaserlab repo.
 
-### [Analysis projects for papers](https://github.com/blaserlab?tab=repositories)
+### Analysis projects for papers
 
 Here you can find links to the public github repos for our data analysis projects.  Private repositories are also available to collaborators in this area.  Most are designed to work in concert with a precompiled data package which is publicly distributed through our dryad and privately available on our OSU network drive.  
+
+* [flt3_aml_bakerlab](https://github.com/blaserlab/flt3_aml_bakerlab)
+	* Sc-RNAseq Analysis of bone marrow samples from Flt3-AML patients treated with Gilteritinib.
+	* We find chemokines upregulated in patients resistant to Gilteritinib.
+	*[PMID 35797240](https://pubmed.ncbi.nlm.nih.gov/35797240/)
+* [hanel_lapo](https://github.com/blaserlab/hanel_lapo)
+	* Sc-RNAseq Analysis of mantle cell lymphoma patient samples
+	*[PMID 35831896](https://pubmed.ncbi.nlm.nih.gov/35831896/)
+
 
 ### [blaseRtools](https://blaserlab.github.io/blaseRtools/)
 
 The underlying philosophy of blaseRtools is that we try to reduce the cognitive burden related to working with diverse sets of bioinformatics tools.  We try as rapidly as possible to process and funnel raw data into common data structures that are as simple to understand and work with as possible.  
 
 The main page linked from the section title provides an overview of different "modules" of tools we have available.  From there you can link to tutorials showing common use-cases.  The tutorials are identical in content to the vignettes available in R when you install the package.
+
+### [blaseRtemplates](https://github.com/blaserlab/blaseRtemplates)
+
+This started out as project setup templates to be used with the usethis package.
+
+It expanded to become general utility package for setting up projects and handling packages.
+
+Takes some things from renv and makes them faster and more useful.
 
 ### [Datascience Workshop 2022](https://blaserlab.github.io/datascience.curriculum/)
 
