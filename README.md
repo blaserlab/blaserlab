@@ -35,23 +35,17 @@ It expanded to become general utility package for setting up projects and handli
 
 Takes some things from renv and makes them faster and more useful.
 
-### [Datascience Workshop 2022](https://blaserlab.github.io/datascience.curriculum/)
+### [Datascience Workshop 2023](https://blaserlab.github.io/datascience.curriculum/)
 
 In 2019 I began offering a small-group workshop on computational data analysis in R.  This was put on hiatus due to the COVID pandemic.  
 
-I am happy to announce that I am once again offering the workshop in Spring 2022.
+I am happy to announce that I am once again offering the workshop in Spring 2023.
 
 * Intended audience:  The workshop will be targeted at laboratory-based scientists (trainees and faculty) who wish to improve their ability to rigorously analyze standard laboratory data and who wish to gain the skills necessary to analyze highly-dimensional, complex datasets like scRNA-seq data.  The focus will be on practical skills for organizing and managing data, making your work rigorous and reproducible, and learning how to let the computer do the work for you.  We will not be discussing statistical theory; rather we will learn how to implement established biostatistical tools to generate results for manuscripts.  You should have a working knowledge of basic biostatistics but do not need to have prior experience with R.
 * Format:  The course will be conducted virtually via zoom.  The lecture materials will be provided in advance.  You will be encouraged to read these materials, try running the code, and to prepare any questions you might have in advance.  I will go through the materials during the lecture and we will have a question and answer period at the end.  There are no tests or quizzes but you will be asked to fill out an evaluation at the end of the course.  Because of the change in format, we won’t be able to troubleshoot individual issues or do interactive coding in the live session but you will be free to work in parallel with me during the lecture.
-* Syllabus:
-  * March 30, 10-11 AM:  Setting up your computing environment
-  * April 6, 10-11 AM:  Basics of working with data in R
-  * April 13, 10-11 AM:  More advanced concepts in R
-  * April 27, 10-11 AM:  scRNA-seq tutorial 1
-  * May 4, 10-11 AM:  scRNA-seq tutorial 2
-  * May 11, 10-11 AM:  Building and using data packages
+* Syllabus:  under revision....
 * Materials:  Workshop materials will be distributed via the course website.  These will be released at a later date.
-* How to participate:  Email bradley.blaser@osumc.edu and be sure to include “Workshop Spring 2022” in the subject
+* How to participate:  Email bradley.blaser@osumc.edu and be sure to include “datascience workshop 2023” in the subject
 * Video recordings will be made available to participants.
 
 
