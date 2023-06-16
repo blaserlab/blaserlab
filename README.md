@@ -1,31 +1,27 @@
 ## Hi there 👋
 
-Welcome to the Blaser Lab Github page.  
+Welcome to the Blaser Lab Github page.  This serves as our lab website. Why not?  Github is a great resource that we use daily and from here you can find all of the papers and other resources we have published.  
 
-Our lab is interested in hematopoiesis and leukemogenesis.  We also have an interest in single cell technologies. This github page is a good place to start if you want to review the code behind the figures for our papers.  From here you can also find the code for our blaseRtools R package.  This is a set of functions we use frequently in the lab related to single cell analysis, image analysis, DNA sequence manipulation, and Chip/ATAC-seq visualization.  
+Our lab is interested in hematopoiesis and leukemogenesis. The main question we have is how does the hematopoietic microenvironment control hematopoietic stem cell fate.  Fate can be defined phylogenetically and in some ways can be thought of as clonal diversity.  Fate can also be defined phenotypically which we often describe through functional assays and/or transcriptional state.  We study HSC fate in the zebrafish model using genetics, cellular barcoding, time-lapse imaging, and single cell transcriptomic and epigenetic assays.  By understanding how the microenvironment alters these aspects of HSC fate, we can understand more about how leukemia develops.  We may also be able to preserve HSC clonal diversity under conditions of stress such as hematopoietic stem cell transplantation.   
 
-### [R Universe blaserlab repo!](https://blaserlab.r-universe.dev/ui#builds)
+## Selected Research Publications
 
-This is like a CRAN repo for everybody.  This is your best option for installing blaseRtools and blaseRtemplates.  MAC and Windows binaries are available.  See the top of the page for instructions on how to enable blaserlab repo.
+Our data managment strategy for research manuscripts is very formal.  Code to generate all R-based figures (probably 90-95% of the panels for most manuscripts) is stored in an analysis project.  This will only work if you also have the companion data package.  The code is here on github.  The data packages are elsewhere; lately and for the indefinite future that place is Figshare.  See links below.  Instructions for installing and using the code and data together are provided on the analysis project README. 
 
-### Analysis projects for papers
+* [Microenvironmental control of hematopoietic stem cell fate via CXCL8 and protein kinase C.](https://pubmed.ncbi.nlm.nih.gov/37209097/)
+	* We found that protein kinase C delta (PKC-&#948)is transcriptionally quiet in the zebrafish vascular niche
+	* Dysregulation of PKC-&#948 increases HSC clonal diversity and expands polyclonal immature neutrophils and erythrocytes
+	* cxcl8 signals through PKC-&#948, the focal adhesion complex and ERK, remodeling the vascular niche and inducing expression of hematopoietic factors.
+	* [Analysis Project](https://github.com/blaserlab/pkc_cxcl8)
+	* [Data Package](https://data.mendeley.com/datasets/6s7vy929dc)
 
-Here you can find links to the public github repos for our data analysis projects.  Private repositories are also available to collaborators in this area.  Most are designed to work in concert with a precompiled data package which is publicly distributed through our dryad and privately available on our OSU network drive.  
-
-* [flt3_aml_bakerlab](https://github.com/blaserlab/flt3_aml_bakerlab)
+* [BMX kinase mediates gilteritinib resistance in FLT3-mutated AML through microenvironmental factors.](https://pubmed.ncbi.nlm.nih.gov/35797240/)
 	* Sc-RNAseq Analysis of bone marrow samples from Flt3-AML patients treated with Gilteritinib.
-	* We find chemokines upregulated in patients resistant to Gilteritinib.
-	* [PMID 35797240](https://pubmed.ncbi.nlm.nih.gov/35797240/)
-* [hanel_lapo](https://github.com/blaserlab/hanel_lapo)
-	* Sc-RNAseq Analysis of mantle cell lymphoma patient samples
-	* [PMID 35831896](https://pubmed.ncbi.nlm.nih.gov/35831896/)
+	* We find BMX kinase and chemokines upregulated in patients resistant to Gilteritinib.
+	* [Analysis Project](https://github.com/blaserlab/flt3_aml_bakerlab)
+	* [Data Package](https://doi.org/10.6084/m9.figshare.23535606)
 
-
-### [blaseRtools](https://blaserlab.github.io/blaseRtools/)
-
-The underlying philosophy of blaseRtools is that we try to reduce the cognitive burden related to working with diverse sets of bioinformatics tools.  We try as rapidly as possible to process and funnel raw data into common data structures that are as simple to understand and work with as possible.  
-
-The main page linked from the section title provides an overview of different "modules" of tools we have available.  From there you can link to tutorials showing common use-cases.  The tutorials are identical in content to the vignettes available in R when you install the package.
+## Computational Resources
 
 ### [blaseRtemplates](https://github.com/blaserlab/blaseRtemplates)
 
@@ -33,24 +29,34 @@ This started out as project setup templates to be used with the usethis package.
 
 It expanded to become general utility package for setting up projects and handling packages.
 
-Takes some things from renv and makes them faster and more useful.
+Then it expanded again to become a deployable computational environment for single or multi-user systems.  Works on Mac, Linux and Windows.
 
+It takes some concepts from renv and makes them faster and more useful.
+
+### [blaseRtools](https://blaserlab.github.io/blaseRtools/)
+
+The underlying philosophy of blaseRtools is that we try to reduce the cognitive burden related to working with diverse sets of bioinformatics tools.  We try to process raw data into common data structures that are as simple to understand and work with as possible.  
+
+The primary focus is on tools for downstream analysis and visualization of single cell RNAseq data.  A secondary set of functions focuses on manipulation of genomic sequences and export to genebank files for interactive use outside of R.
+
+### [R Universe blaserlab repo](https://blaserlab.r-universe.dev/ui#builds)
+
+This is like a CRAN repo for everybody.  This is your best option for installing blaseRtools and blaseRtemplates.  MAC and Windows binaries are available.  See the top of the page for instructions on how to enable blaserlab repo.
+
+## Laboratory Resources
+
+* [Recipes](https://github.com/blaserlab/recipes):  Basic recipes we use regularly for fish work, cloning and molecular biology.
+* [Protocols](https://github.com/blaserlab/general_protocols):  These are protocols we use for cloning, fish work etc.  WIP.
+
+## Teaching
 ### [Datascience Workshop 2023](https://blaserlab.github.io/datascience.curriculum/)
 
-In 2019 I began offering a small-group workshop on computational data analysis in R.  This was put on hiatus due to the COVID pandemic.  
+The course is complete for 2023.  You can find the course page and links to the tutorial videos at the link above.  
 
-I am happy to announce that I am once again offering the workshop in Spring 2023.
+## People
 
-* Intended audience:  The workshop will be targeted at laboratory-based scientists (trainees and faculty) who wish to improve their ability to rigorously analyze standard laboratory data and who wish to gain the skills necessary to analyze highly-dimensional, complex datasets like scRNA-seq data.  The focus will be on practical skills for organizing and managing data, making your work rigorous and reproducible, and learning how to let the computer do the work for you.  We will not be discussing statistical theory; rather we will learn how to implement established biostatistical tools to generate results for manuscripts.  You should have a working knowledge of basic biostatistics but do not need to have prior experience with R.
-* Format:  The course will be conducted virtually via zoom.  The lecture materials will be provided in advance.  You will be encouraged to read these materials, try running the code, and to prepare any questions you might have in advance.  I will go through the materials during the lecture and we will have a question and answer period at the end.  There are no tests or quizzes but you will be asked to fill out an evaluation at the end of the course.  Because of the change in format, we won’t be able to troubleshoot individual issues or do interactive coding in the live session but you will be free to work in parallel with me during the lecture.
-* Syllabus:  under revision....
-* Materials:  Workshop materials will be distributed via the course website.  These will be released at a later date.
-* How to participate:  Email bradley.blaser@osumc.edu and be sure to include “datascience workshop 2023” in the subject
-* Video recordings will be made available to participants.
-
-
-
-
+* [Wantong Li](https://github.com/WantongLii):  Wantong is a third-year graduate student in the OSU MCDB program.
+* [Konur Oyman](https://github.com/oyman4):  Konur is a second-year graduate student in the OSU MCDB program.
 
 <!--
 **blaserlab/blaserlab** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
