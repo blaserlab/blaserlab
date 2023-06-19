@@ -1,7 +1,7 @@
 ## Welcome to the Blaser Lab
 
 ![parabiotics](images/parabiotics.png)
-![timelapsee](images/timelapse.jpg)
+[CXCR1 remodels the vascular niche to promote hematopoietic stem and progenitor cell engraftment](https://pubmed.ncbi.nlm.nih.gov/28351983/)
 
 Welcome to the Blaser Lab Github page.  This serves as our lab website. Why not?  Github is a great resource that we use daily and from here you can find all of the papers and other resources we have published.  
 
