@@ -1,6 +1,7 @@
 ## Welcome to the Blaser Lab
 
 ![parabiotics](./images/parabiotics.tif)
+![parabiotics](https://github.com/blaserlab/blaserlab/blob/main/images/parabiotics.tif)
 
 Welcome to the Blaser Lab Github page.  This serves as our lab website. Why not?  Github is a great resource that we use daily and from here you can find all of the papers and other resources we have published.  
 
