@@ -60,8 +60,10 @@ The course is complete for 2023.  You can find the course page and links to the 
 
 ## People
 
+* [Brad Blaser](https://github.com/blaserleb):  Assistant Professor of Medicine,  OSU College of Medicine, Division of Hematology.  
 * [Wantong Li](https://github.com/WantongLii):  Wantong is a third-year graduate student in the OSU MCDB program.
 * [Konur Oyman](https://github.com/oyman4):  Konur is a second-year graduate student in the OSU MCDB program.
+* [Annika Chura](https://github.com/annikachura):  Annika is a second-year graduate student in the OSU MCDB program.
 
 <!--
 **blaserlab/blaserlab** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
